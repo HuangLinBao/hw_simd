@@ -1,0 +1,72 @@
+=================for size = 128=================
+==================Vector * Vector==============================
+Scaler:
+Result:32.000000 Time:0.000000
+Vector:
+Result:32.000000 Time:0.000000
+
+
+Improvement:1.853659 
+
+==================Matrix * Vector==============================
+Time for scaler:0.000033
+Time for SSE:0.000016
+
+
+Improvement:2.020121 
+
+==================Matrix * Matrix==============================
+Time for scaler:0.004771
+Time for SSE:0.002044
+
+
+Improvement:2.333614 
+
+=================for size = 256=================
+==================Vector * Vector==============================
+Scaler:
+Result:60.000000 Time:0.000001
+Vector:
+Result:60.000000 Time:0.000000
+
+
+Improvement:1.953541 
+
+==================Matrix * Vector==============================
+Time for scaler:0.000132
+Time for SSE:0.000060
+
+
+Improvement:2.179668 
+
+==================Matrix * Matrix==============================
+Time for scaler:0.037737
+Time for SSE:0.015329
+
+
+Improvement:2.461749 
+
+=================for size = 512=================
+==================Vector * Vector==============================
+Scaler:
+Result:121.000000 Time:0.000001
+Vector:
+Result:121.000000 Time:0.000000
+
+
+Improvement:2.152437 
+
+==================Matrix * Vector==============================
+Time for scaler:0.000520
+Time for SSE:0.000231
+
+
+Improvement:2.255356 
+
+==================Matrix * Matrix==============================
+Time for scaler:0.561957
+Time for SSE:0.217095
+
+
+Improvement:2.588531 
+
